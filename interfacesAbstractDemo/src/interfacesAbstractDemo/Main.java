@@ -15,7 +15,7 @@ public class Main {
 		Date birthDay = new Date(1996, 27, 03);
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer(1, "Osman Can", "BÝLGE", birthDay, "48388545768"));
+		customerManager.save(new Customer(1, "Osman Can", "Bilge", birthDay, "48388545768"));
 	}
 
 }
